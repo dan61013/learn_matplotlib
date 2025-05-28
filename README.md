@@ -26,6 +26,8 @@ Table of contents:
 ## Notes
 
 1. [基礎練習 - Line Chart](./Chapter01/main.py): 單/多線條圖繪製，包含Style設定。
-2. [自己練習 - Line Chart](./Chapter01/practice.py)![南部科學園區從業員工年齡統計](./Chapter01/practice_plot.png)
+2. [自己練習 - Line Chart](./Chapter01/practice.py)
+![南部科學園區從業員工年齡統計](./Chapter01/practice_plot.png)
 3. [基礎練習 - Bar Chart](./Chapter02/main.py): Stack Bar Chart, Bar & Line Chart
-4. [自己練習 - Bar Chart](./Chapter02/practice.py): Horizontal Bart chart![受僱員工人數、每人薪資-專業、科學及技術服務業(按職類別分)](./Chapter02/plot_practice.png)
+4. [自己練習 - Bar Chart](./Chapter02/practice.py): Horizontal Bart chart
+![受僱員工人數、每人薪資-專業、科學及技術服務業(按職類別分)](./Chapter02/plot_practice.png)
