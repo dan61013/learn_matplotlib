@@ -1,6 +1,3 @@
-"""
-使用政府資料開放平臺(南部科學園區從業員工年齡統計): https://data.gov.tw/dataset/91882
-"""
 from matplotlib import pyplot as plt
 from matplotlib import font_manager
 import pandas as pd
