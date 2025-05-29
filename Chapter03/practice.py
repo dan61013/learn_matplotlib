@@ -22,6 +22,7 @@ def main():
         autopct='%1.1f%%',
         wedgeprops={'edgecolor': 'black'}
     )
+    plt.title('Kaggle dataset top 5 by Upvote')
     plt.tight_layout()
     plt.savefig('./Chapter03/plot_practice.png')
     plt.show()
