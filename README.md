@@ -11,6 +11,7 @@ Table of contents:
     - [Chapter01 基礎應用](#chapter01-基礎應用)
     - [Chapter02 Bar Chart](#chapter02-bar-chart)
     - [Chapter03 Pie Chart](#chapter03-pie-chart)
+    - [Chapter04 Stack Plot](#chapter04-stack-plot)
 
 ---
 
@@ -44,7 +45,14 @@ Table of contents:
 
 ### Chapter03 Pie Chart
 
-- [基礎練習 - Pie Chart](./Chapter02/main.py): Pie Chart, 以及各項參數設定。
-- [自己練習 - Pie Chart](./Chapter02/practice.py): 使用[Kaggle’s Most Upvoted Datasets](https://www.kaggle.com/datasets/ritalin56/kaggles-most-upvoted-datasets-overview/data)，取Upvote數量最高的前5名。
+- [基礎練習 - Pie Chart](./Chapter03/main.py): Pie Chart, 以及各項參數設定。
+- [自己練習 - Pie Chart](./Chapter03/practice.py): 使用[Kaggle’s Most Upvoted Datasets](https://www.kaggle.com/datasets/ritalin56/kaggles-most-upvoted-datasets-overview/data)，取Upvote數量最高的前5名。
 
 ![Kaggle’s Most Upvoted Datasets](./Chapter03/plot_practice.png)
+
+### Chapter04 Stack Plot
+
+- [基礎練習 - Stack Chart](./Chapter04/main.py): Pie Chart, 以及各項參數設定。
+- [自己練習 - Stack Chart](./Chapter04/practice.py): 使用[南部科學園區從業員工年齡統計](./docs/424_2.csv)，split 111 to 112年資料以製作stack plot。
+
+![南部科學園區從業員工年齡統計(111~112年)](./Chapter04/plot_practice.png)
