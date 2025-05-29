@@ -8,6 +8,9 @@ Table of contents:
   - [Link](#link)
     - [Dataset](#dataset)
   - [Notes](#notes)
+    - [Chapter01 基礎應用](#chapter01-基礎應用)
+    - [Chapter02 Bar Chart](#chapter02-bar-chart)
+    - [Chapter03 Pie Chart](#chapter03-pie-chart)
 
 ---
 
@@ -25,9 +28,23 @@ Table of contents:
 
 ## Notes
 
-1. [基礎練習 - Line Chart](./Chapter01/main.py): 單/多線條圖繪製，包含Style設定。
-2. [自己練習 - Line Chart](./Chapter01/practice.py)
+### Chapter01 基礎應用
+
+- [基礎練習 - Line Chart](./Chapter01/main.py): 單/多線條圖繪製，包含Style設定。
+- [自己練習 - Line Chart](./Chapter01/practice.py)
+
 ![南部科學園區從業員工年齡統計](./Chapter01/practice_plot.png)
-3. [基礎練習 - Bar Chart](./Chapter02/main.py): Stack Bar Chart, Bar & Line Chart
-4. [自己練習 - Bar Chart](./Chapter02/practice.py): Horizontal Bart chart
+
+### Chapter02 Bar Chart
+
+- [基礎練習 - Bar Chart](./Chapter02/main.py): Stack Bar Chart, Bar & Line Chart
+- [自己練習 - Bar Chart](./Chapter02/practice.py): Horizontal Bart chart
+
 ![受僱員工人數、每人薪資-專業、科學及技術服務業(按職類別分)](./Chapter02/plot_practice.png)
+
+### Chapter03 Pie Chart
+
+- [基礎練習 - Pie Chart](./Chapter02/main.py): Pie Chart, 以及各項參數設定。
+- [自己練習 - Pie Chart](./Chapter02/practice.py): 使用[Kaggle’s Most Upvoted Datasets](https://www.kaggle.com/datasets/ritalin56/kaggles-most-upvoted-datasets-overview/data)，取Upvote數量最高的前5名。
+
+![Kaggle’s Most Upvoted Datasets](./Chapter03/plot_practice.png)
