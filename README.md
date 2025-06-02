@@ -2,6 +2,10 @@
 
 Reference: [Matplotlib Tutorial](https://youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_&si=ylA_tihRvx0JxJ1f)
 
+Environment:
+
+- `matplotlib==3.10.0`
+
 Table of contents:
 
 - [Learning Python Matplotlib](#learning-python-matplotlib)
@@ -12,6 +16,7 @@ Table of contents:
     - [Chapter02 Bar Chart](#chapter02-bar-chart)
     - [Chapter03 Pie Chart](#chapter03-pie-chart)
     - [Chapter04 Stack Plot](#chapter04-stack-plot)
+    - [Chapter05 Lie Plot \& Fill Up](#chapter05-lie-plot--fill-up)
 
 ---
 
@@ -26,6 +31,7 @@ Table of contents:
 - [Tutorial - data.csv](https://github.com/CoreyMSchafer/code_snippets/blob/master/Python/Matplotlib/02-BarCharts/data.csv)
 - [受僱員工人數、每人薪資-專業、科學及技術服務業(按職類別分)](https://data.gov.tw/dataset/41695)
 - [南部科學園區從業員工年齡統計](https://data.gov.tw/dataset/91882)
+- [Sales Dataset](https://www.kaggle.com/datasets/sahilislam007/sales-dataset)
 
 ## Notes
 
@@ -56,3 +62,12 @@ Table of contents:
 - [自己練習 - Stack Chart](./Chapter04/practice.py): 使用[南部科學園區從業員工年齡統計](./docs/424_2.csv)，split 111 to 112年資料以製作stack plot。
 
 ![南部科學園區從業員工年齡統計(111~112年)](./Chapter04/plot_practice.png)
+
+### Chapter05 Lie Plot & Fill Up
+
+> Reference: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.fill_between.html#matplotlib.axes.Axes.fill_between
+
+- [基礎練習 - Line Chart & Fill Up](./Chapter05/main.py): 折線圖，加上與其他Array進行比較，並填滿指定顏色。
+- [自己練習 - Line Chart & Fill Up](./Chapter05/practice.py): 使用[Sales Dataset](./docs/Sales Dataset.csv)，取出`All Product Category` & `Beauty`這2個分類進行比較。
+
+![Sales Dataset](./Chapter05/plot_practice.png)
