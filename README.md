@@ -17,6 +17,7 @@ Table of contents:
     - [Chapter03 Pie Chart](#chapter03-pie-chart)
     - [Chapter04 Stack Plot](#chapter04-stack-plot)
     - [Chapter05 Lie Plot \& Fill Up](#chapter05-lie-plot--fill-up)
+    - [Chapter06 Histogram](#chapter06-histogram)
 
 ---
 
@@ -71,3 +72,10 @@ Table of contents:
 - [自己練習 - Line Chart & Fill Up](./Chapter05/practice.py): 使用[Sales Dataset](./docs/Sales Dataset.csv)，取出`All Product Category` & `Beauty`這2個分類進行比較。
 
 ![Sales Dataset](./Chapter05/plot_practice.png)
+
+### Chapter06 Histogram
+
+- [基礎練習 - Histogram](./Chapter06/main.py): 折線圖，加上與其他Array進行比較，並填滿指定顏色。
+- [自己練習 - Histogram](./Chapter06/practice.py): 使用[Sales Dataset](./docs/Sales Dataset.csv)，取出`All Gender` & `Male`這2個分類進行比較。
+
+![Sales Dataset](./Chapter06/plot_practice.png)
