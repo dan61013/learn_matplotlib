@@ -18,6 +18,7 @@ Table of contents:
     - [Chapter04 Stack Plot](#chapter04-stack-plot)
     - [Chapter05 Lie Plot \& Fill Up](#chapter05-lie-plot--fill-up)
     - [Chapter06 Histogram](#chapter06-histogram)
+    - [Chapter07 Scatter Plot](#chapter07-scatter-plot)
 
 ---
 
@@ -26,6 +27,7 @@ Table of contents:
 - [matplotlib - Format Strings](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html): `fmt='[marker][line][color]'`
 - [matplotlib - Style sheet](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html): 提供內建的可用樣式，使用`plt.style.use(STYLE)`
 - [Google Font - LXGW WenKai TC](https://fonts.google.com/specimen/LXGW+WenKai+TC?lang=zh_Hant)
+- [matplotlib - Colormaps](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
 
 ### Dataset
 
@@ -79,3 +81,10 @@ Table of contents:
 - [自己練習 - Histogram](./Chapter06/practice.py): 使用[Sales Dataset](./docs/Sales Dataset.csv)，取出`All Gender` & `Male`這2個分類進行比較。
 
 ![Sales Dataset](./Chapter06/plot_practice.png)
+
+### Chapter07 Scatter Plot
+
+- [基礎練習 - Scatter](./Chapter07/main.py): 散布圖，教學中使用[2019-05-31-data](./docs/2019-05-31-data.csv)，該資料是YouTube Top 200 Trending Video。
+- [自己練習 - Scatter](./Chapter07/practice.py)
+
+![各職業受僱員工人數、經常性薪資、111年度全年薪資所得(萬元)](./Chapter07/plot_practice.png)
