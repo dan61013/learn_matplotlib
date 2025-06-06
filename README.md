@@ -19,6 +19,7 @@ Table of contents:
     - [Chapter05 Lie Plot \& Fill Up](#chapter05-lie-plot--fill-up)
     - [Chapter06 Histogram](#chapter06-histogram)
     - [Chapter07 Scatter Plot](#chapter07-scatter-plot)
+    - [Chapter08 Datetime Plot](#chapter08-datetime-plot)
 
 ---
 
@@ -28,6 +29,8 @@ Table of contents:
 - [matplotlib - Style sheet](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html): 提供內建的可用樣式，使用`plt.style.use(STYLE)`
 - [Google Font - LXGW WenKai TC](https://fonts.google.com/specimen/LXGW+WenKai+TC?lang=zh_Hant)
 - [matplotlib - Colormaps](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
+- [Python - Datetime](https://docs.python.org/3/library/datetime.html#datetime.datetime.strftime)
+  - [W3School - Python - Datetime](https://www.w3schools.com/python/python_datetime.asp)
 
 ### Dataset
 
@@ -88,3 +91,10 @@ Table of contents:
 - [自己練習 - Scatter](./Chapter07/practice.py)
 
 ![各職業受僱員工人數、經常性薪資、111年度全年薪資所得(萬元)](./Chapter07/plot_practice.png)
+
+### Chapter08 Datetime Plot
+
+- [基礎練習 - Datetime(X axis)](./Chapter08/main.py): 教學是使用`plt.plot_date()`，但該function在3.9版已棄用，所以改成用`plot`方法繪圖。
+- [自己練習 - Datetime(X axis)](./Chapter08/practice.py): 使用[Sales Dataset](./docs/Sales%20Dataset.csv)，將資料依照`Date`進行ascending排序，再用`groupby`計算每一天的Total Amount，最後用`head()`取前6天的數據。
+
+![Sales Dataset by Days](./Chapter08/plot_practice.png)

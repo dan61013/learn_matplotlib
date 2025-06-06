@@ -26,6 +26,8 @@ def main():
     plt.barh(df.index, df['7月經常性薪資（金額元）'].values)
     plt.rcParams['ytick.labelsize'] = 6
     plt.xlabel('7月經常性薪資（金額元）')
+    # 可以用ticks設定rotation角度，讓文字顯示比較不壅擠
+    # plt.yticks(rotation=45, ha='right')
     plt.title("受僱員工人數、每人薪資-專業、科學及技術服務業(按職類別分)")
     plt.grid(axis='x', linestyle='--')
     plt.tight_layout()
