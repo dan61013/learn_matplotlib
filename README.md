@@ -20,6 +20,7 @@ Table of contents:
     - [Chapter06 Histogram](#chapter06-histogram)
     - [Chapter07 Scatter Plot](#chapter07-scatter-plot)
     - [Chapter08 Datetime Plot](#chapter08-datetime-plot)
+    - [Chapter09 Real-Time Plot](#chapter09-real-time-plot)
 
 ---
 
@@ -98,3 +99,10 @@ Table of contents:
 - [自己練習 - Datetime(X axis)](./Chapter08/practice.py): 使用[Sales Dataset](./docs/Sales%20Dataset.csv)，將資料依照`Date`進行ascending排序，再用`groupby`計算每一天的Total Amount，最後用`head()`取前6天的數據。
 
 ![Sales Dataset by Days](./Chapter08/plot_practice.png)
+
+### Chapter09 Real-Time Plot
+
+- [基礎練習 - Real-Time Plot](./Chapter09/main.py): 教學是使用`itertools.count`與`random`進行繪製動態圖。
+- [自己練習 - Datetime(X axis)](./Chapter09/practice.py): 使用[Sales Dataset](./docs/Sales%20Dataset.csv)，將資料依照`Date`進行ascending排序，再用`groupby`計算每日的Total Amount，並用slice`[:current_cnt]`，取得每一次更新的數據，以繪製動態圖。
+
+![Sales Dataset by Days Gif](./Chapter09/plot_practice.gif)
