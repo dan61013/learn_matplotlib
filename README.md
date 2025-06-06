@@ -32,6 +32,8 @@ Table of contents:
 - [matplotlib - Colormaps](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
 - [Python - Datetime](https://docs.python.org/3/library/datetime.html#datetime.datetime.strftime)
   - [W3School - Python - Datetime](https://www.w3schools.com/python/python_datetime.asp)
+- [Pandas - MultiIndex](https://pandas.pydata.org/docs/user_guide/advanced.html)
+- [matplotlib - Animation](https://matplotlib.org/stable/users/explain/animations/animations.html)
 
 ### Dataset
 
@@ -103,6 +105,6 @@ Table of contents:
 ### Chapter09 Real-Time Plot
 
 - [基礎練習 - Real-Time Plot](./Chapter09/main.py): 教學是使用`itertools.count`與`random`進行繪製動態圖。
-- [自己練習 - Datetime(X axis)](./Chapter09/practice.py): 使用[Sales Dataset](./docs/Sales%20Dataset.csv)，將資料依照`Date`進行ascending排序，再用`groupby`計算每日的Total Amount，並用slice`[:current_cnt]`，取得每一次更新的數據，以繪製動態圖。
+- [自己練習 - Real-Time Plot](./Chapter09/practice.py): 使用[Sales Dataset](./docs/Sales%20Dataset.csv)，與**Chapter08**合併製作，將資料依照`Date`進行ascending排序，再用`groupby`計算每日的Total Amount，並用slice`[:current_cnt]`，取得每一次更新的數據(以日期更新)，以繪製動態圖。
 
 ![Sales Dataset by Days Gif](./Chapter09/plot_practice.gif)
