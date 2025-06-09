@@ -21,6 +21,7 @@ Table of contents:
     - [Chapter07 Scatter Plot](#chapter07-scatter-plot)
     - [Chapter08 Datetime Plot](#chapter08-datetime-plot)
     - [Chapter09 Real-Time Plot](#chapter09-real-time-plot)
+    - [Chapter10 Subplots](#chapter10-subplots)
 
 ---
 
@@ -108,3 +109,10 @@ Table of contents:
 - [自己練習 - Real-Time Plot](./Chapter09/practice.py): 使用[Sales Dataset](./docs/Sales%20Dataset.csv)，與**Chapter08**合併製作，將資料依照`Date`進行ascending排序，再用`groupby`計算每日的Total Amount，並用slice`[:current_cnt]`，取得每一次更新的數據(以日期更新)，以繪製動態圖。
 
 ![Sales Dataset by Days Gif](./Chapter09/plot_practice.gif)
+
+### Chapter10 Subplots
+
+- [基礎練習 - Subplots](./Chapter10/main.py): 使用`plt.subplots()`方法建立多個axes(子視圖)，並共用相同X軸。
+- [自己練習 - Subplots](./Chapter10/practice.py): 使用[Sales Dataset](./docs/Sales%20Dataset.csv)，依照`Age, Gender`進行`groupby`，計算Total Amount的Mean，並進行繪圖。
+
+![Sales Dataset by Ages](./Chapter10/plot_practice.png)
